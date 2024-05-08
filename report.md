@@ -75,6 +75,7 @@ def update(self, draw_pos):
     def draw(self, display, draw_pos):
         super().draw(display, draw_pos)
 ```
+<br>
 
 - Abstraction: Abstraction is employed through the use of abstract methods and classes. The Plant class defines an abstract method update, which is implemented differently by its subclasses like Sunflower and Peashooter. This allows for a blueprint of behavior to be defined in the base class while allowing subclasses to provide concrete implementations.
 
@@ -95,12 +96,14 @@ def update(self, draw_pos):
             self.cooldown = 780
         super().update(draw_pos)
 ```
+<br>
 
 - Inheritance: Inheritance is evident in the program through class inheritance. For instance, the Sunflower, Peashooter, and Walnut classes inherit from the Plant class. This allows them to inherit attributes and methods from the base class and define their own specific behaviors.
 
 ```py
 class Walnut(Plant):
 ```
+<br>
 
 - Encapsulation: Encapsulation is utilized to encapsulate data and methods within classes. For example, attributes like game, type, and pos are encapsulated within the Plant class. This ensures that data is hidden and can only be accessed and modified through defined methods.
 
