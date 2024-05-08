@@ -120,6 +120,7 @@ class Plant:
 
         self.damage_cooldown = 30 <br><br>
 ```
+<br><br>
 
 
 #### 2. Design Patterns:
@@ -140,6 +141,7 @@ def place_sunflower(self, pos):
 
 self.place_sunflower((x, y))
 ```
+<br><br>
 
 
 #### 3. File I/O:
