@@ -137,7 +137,6 @@ def place_sunflower(self, pos):
 
 self.place_sunflower((x, y))
 ```
-<br><br>
 
 
 #### 3. File I/O:
